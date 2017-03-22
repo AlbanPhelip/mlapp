@@ -14,7 +14,7 @@ libraryDependencies += "org.apache.bahir" % "spark-streaming-twitter_2.11" % "2.
 
 libraryDependencies += "joda-time" % "joda-time" % "2.9.7"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6"
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "provided"
 
 
 mainClass in assembly := Some("fr.xebia.data.mlapp.Main")
